@@ -1,0 +1,46 @@
+.form{
+  border-bottom-right-radius: 100px;
+}
+.form tr{
+  height: 7rem;
+  width: 150px;
+}
+.form th{
+  width: 150px;
+  background-color: white;
+  color: black;
+  text-align: right;
+}
+.form td{
+  width: 480px;
+  padding-left: 1rem;
+  margin top: 10px
+}
+.input{
+  height: 4rem;
+  width: 480px;
+}
+.textarea{
+  resize: none;
+  height: 7rem;
+  width: 480px;
+}
+.btn{
+  width: 100%
+  padding: 15px;
+  background:#00cccc;
+  outline-color: none;
+  cursor: pointer;
+  border-radius: 3px;
+  border: 0;
+  margin-left: 300px;
+  font-size: 20px;
+  font-display: block;
+  color: white;
+  margin-top: 20px;
+  border-spacing: 30px;
+  borde
+}
+.btn:hover{
+  opacity: 0.6;
+}

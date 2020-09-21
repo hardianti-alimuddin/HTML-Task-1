@@ -10,7 +10,7 @@
   <div class="container">
     <header class="header clearfix">
       <a href="index.html">
-        <img src="./images/logo.png" class="logo_image">
+        <img src="./logo.png" class="logo_image">
       </a>
       <nav>
         <ul class="top_menu clearfix">
@@ -21,7 +21,7 @@
         </ul>
       </nav>
     </header>
-    <img src="./images/contact.png" class="image_area">
+    <img src="./contact.png" class="image_area">
     <div class="wrapper clearfix">
       <aside class="side_menu">
         <nav>
@@ -32,32 +32,30 @@
           </ul>
         </nav>
       </aside>
-      <aside class="form">
-        <div class="form">
-          <ul>
-            <div class="input_field">
-            <label>お名前:</label>
-            <input type="text" class="input">
-          </div>
-          <div class="input_field">
-            <label>メールアドレス:</label>
-            <input type="text" class="input">
-          </div>
-          <div class="input_field">
-            <label>性別:</label>
-            男: <input type="checkbox" class="male">
-            女: <input type="checkbox" class="female">
-          </div>
-          <div class="input_field">
-            <label>お問い合わせ内容:</label>
-            <textarea class="textarea"></textarea>
-          </div>
-          <div class="input_field">
-              <input type="submit" value ="送信" class="btn">
-          </div>
-        </ul>
+      <article class="content">
+        <table class="form">
+          <tr>
+            <th>お名前:</th>
+            <td><input type="text" class="input"></td>
+          </tr>
+          <tr>
+            <th>メールアドレス:</th>
+            <td><input type="text" class="input"></td>
+          </tr>
+          <tr>
+            <th>性別:</th>
+            <td> 男<class="input">: <input type="checkbox" class="male">
+              女<class="input">: <input type="checkbox" class="female"></td>
+          </tr>
+          <tr>
+            <th>お問い合わせ内容:</th>
+            <td><input type="textarea" class="textarea"></td>
+          </tr>
+        </table>
+        <div class="input_field">
+            <input type="submit" value ="送信" class="btn">
         </div>
-        </aside>
+      </article>
     <footer class="footer">
       <p>Copyright © 2018 DIVE INC All RIGHTS RESERVED.</p>
     </footer>
