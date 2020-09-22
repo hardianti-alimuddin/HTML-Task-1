@@ -2,8 +2,9 @@
   border-bottom-right-radius: 100px;
 }
 .form tr{
-  height: 7rem;
+  height: 5rem;
   width: 150px;
+  font-size: 12px;
 }
 .form th{
   width: 150px;
@@ -17,7 +18,7 @@
   margin top: 10px
 }
 .input{
-  height: 4rem;
+  height: 3rem;
   width: 480px;
 }
 .textarea{
@@ -26,12 +27,12 @@
   width: 480px;
 }
 .btn{
-  width: 100%
-  padding: 15px;
+  width: 50px;
+  padding: 5px;
   background:#00cccc;
   outline-color: none;
   cursor: pointer;
-  border-radius: 3px;
+  border-radius: 1px;
   border: 0;
   margin-left: 300px;
   font-size: 20px;
@@ -39,7 +40,6 @@
   color: white;
   margin-top: 20px;
   border-spacing: 30px;
-  borde
 }
 .btn:hover{
   opacity: 0.6;
