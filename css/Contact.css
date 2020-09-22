@@ -25,6 +25,10 @@
   resize: none;
   height: 7rem;
   width: 480px;
+  letter-spacing: 1px;
+  box-shadow: 1px 1px 1px #999;
+  line-height: 1.5;
+  padding: 10px;
 }
 .btn{
   width: 50px;
