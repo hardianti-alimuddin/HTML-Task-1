@@ -2,7 +2,7 @@
   border-bottom-right-radius: 100px;
 }
 .form tr{
-  height: 7rem;
+  height: 6rem;
   width: 150px;
   font-size: 12px;
 }
@@ -34,6 +34,7 @@
     height: 7rem;
     width: 480px;
     font-size: 12px;
+    resize: none;
 }
 .label {
     display: block;
